@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: white
+  ;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px;
+  color: white;
+  background-color: #009688;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #00665c;
+}
+.bow
+{
+  background: white;
+  padding: 10px;
+}
+</style>
+</head>
+<body class="body">
+  <br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="../images/team1.jpg" alt="Tamuka" style="width:100%">
+      <div class="container bow">
+        <h2>Tamuka Vumbunu</h2>
+        <p class="title">Project Developer and Designer</p>
+        <p>Honours in Electrical Engineering</p>
+        <p>tamukavumbunu@gmail.com</p>
+        <p><a href="../Message_us.php" class="button">Contact</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="../images/team2.jpg" alt="Tamuka" style="width:100%">
+      <div class="container bow">
+        <h2>VAS LABS <span style="font-size: 80%">TECHNOLOGIES Inc</span></h2>
+        <p class="title">Project Sponsor</p>
+        <p>info@vaslabs.com</p>
+        <p><a href="../Message_us.php" class="button">Contact</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="../images/team3.jpg" alt="Tamuka" style="width:100%">
+      <div class="container bow">
+        <h2>Mr H Katongera</h2>
+        <p class="title">Project Supervisor</p>
+        <p>Masters in Telecommunications Engineering</p>
+        <p>munyaradzikatongera@gmail.com</p>
+        <p><a href="../Message_us.php" class="button">Contact</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/howto/tryit.asp?filename=tryhow_css_team by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Jul 2018 02:09:41 GMT -->
+</html>
